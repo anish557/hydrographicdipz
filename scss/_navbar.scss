@@ -13,6 +13,7 @@
   }
   .navbar-brand {
     color: $primary;
+    -webkit-text-stroke: 0.01rem black;
     @include script-font;
     &.active,
     &:active,
