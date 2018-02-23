@@ -4,12 +4,26 @@ section#contact {
   background-image: url('../img/map-image.png');
   background-repeat: no-repeat;
   background-position: center;
+  color: $white;
   .section-heading {
     color: $white;
   }
   .section-details {
     padding-top:20px;
     color: white;
+  }
+  .contact-info {
+    color: white;
+    text-decoration: none;
+  }
+  @media(min-width:768px) {
+    .contact-info {
+      padding-right: 200px;
+      padding-top: 40px;
+    }
+    .contact-profile {
+      padding-left: 200px;
+    }
   }
   .form-group {
     margin-bottom: 25px;
