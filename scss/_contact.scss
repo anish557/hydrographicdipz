@@ -16,13 +16,22 @@ section#contact {
     color: white;
     text-decoration: none;
   }
-  @media(min-width:768px) {
+  @media(min-width:968px) {
     .contact-info {
       padding-right: 200px;
       padding-top: 40px;
     }
     .contact-profile {
       padding-left: 200px;
+    }
+  }
+  @media(min-width:768) {
+    .contact-info {
+      padding-right: 100px;
+      padding-top: 40px;
+    }
+    .contact-profile {
+      padding-left: 100px;
     }
   }
   .form-group {
