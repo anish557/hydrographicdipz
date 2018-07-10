@@ -173,7 +173,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
-  box-shadow: inset 100px 100px 1000px black;
+  box-shadow: inset 0px 100px 1000px black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -581,7 +581,6 @@ header.masthead .intro-text .intro-heading {
 }
 
 .team-member {
-  margin-bottom: 50px;
   text-align: center;
 }
 
@@ -621,15 +620,26 @@ section#contact .section-details {
 section#contact .contact-info {
   color: white;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   section#contact .contact-info {
     padding-right: 200px;
     padding-top: 40px;
   }
   section#contact .contact-profile {
     padding-left: 200px;
+  }
+}
+
+@media (min-width: 768) {
+  section#contact .contact-info {
+    padding-right: 100px;
+    padding-top: 20px;
+  }
+  section#contact .contact-profile {
+    padding-left: 100px;
   }
 }
 
